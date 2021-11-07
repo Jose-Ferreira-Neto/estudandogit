@@ -1,0 +1,3 @@
+Aqui demonstro como funciona o push com pull request; 
+basta fazer o push de uma branch diferente da master; vai ser enviado ao github
+lá vá em pull e compare e veja a alteração feita, para aceitar basta confirmar
