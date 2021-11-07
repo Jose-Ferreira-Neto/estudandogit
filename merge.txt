@@ -1,0 +1,19 @@
+Passos para realizar o MERGE:
+1- git pull na brench principal
+2- gerar uma nova branch a partir da principal para implementar o código fora da produção
+3- adicionar as funcionalidades a nova branch (git add . commit e push)
+4- Git checkout para a master
+5- git pull (atualiza o server)
+6- merge (unir) o código da branch de teste criada cm a branch principal - estando na principal: git merge -NOME DA BRANCH TESTE- -
+7- git push na branch principal
+
+
+{
+  git pull -estando na branch master-
+  git branch -NOME DA BRANCH QUE DESEJA CRIAR- : CRIA A NOVA BRANCH
+  git chechout -NOME DA BRANCH QUE CRIOU - : ACESSA A NOVA BRANCH
+  git (add. ; commit -m; push) -COMANDOS DE ADIÇÃO À NOVA BRANCH-
+  git chechout master : volta para a master
+  git merge -NOME DA BRANCH QUE CRIOU- : Junta os códigos da branch selecionada à master
+  git push : faz o push para o github
+}
