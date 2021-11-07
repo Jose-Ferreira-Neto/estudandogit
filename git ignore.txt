@@ -1,0 +1,2 @@
+com o comando touch .gitignore : cria se um arquivo onde você deve indicar o que o git deve ignorar
+para adicionar só colocar o nome do arquivo no no .gitignore
